@@ -1,0 +1,106 @@
+2026-03-03 15:15:08,787 | INFO | ai_validator_logger | Orchestrator started
+2026-03-03 15:15:08,798 | INFO | ai_validator_logger | Market Research Agent started
+2026-03-03 15:15:08,805 | INFO | ai_validator_logger | [Search Tool] Searching for: AI-powered resume optimizer that tailors resumes to job descriptions to improve ATS score and interview chances market size trends TAM SAM SOM
+2026-03-03 15:15:10,995 | INFO | ai_validator_logger | [Search Tool] Search completed successfully
+2026-03-03 15:15:10,996 | INFO | ai_validator_logger | Sending request to LLM
+2026-03-03 15:15:11,422 | ERROR | ai_validator_logger | LLM request failed: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-03 15:15:11,423 | INFO | ai_validator_logger | Market Research Agent completed successfully
+2026-03-03 15:15:11,423 | INFO | ai_validator_logger | Competitor Agent started
+2026-03-03 15:15:11,424 | INFO | ai_validator_logger | [Search Tool] Searching for: AI-powered resume optimizer that tailors resumes to job descriptions to improve ATS score and interview chances competitors pricing features
+2026-03-03 15:15:13,079 | INFO | ai_validator_logger | [Search Tool] Search completed successfully
+2026-03-03 15:15:13,079 | INFO | ai_validator_logger | Sending request to LLM
+2026-03-03 15:15:13,170 | ERROR | ai_validator_logger | LLM request failed: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-03 15:15:13,170 | INFO | ai_validator_logger | Competitor Agent completed successfully
+2026-03-03 15:15:13,170 | INFO | ai_validator_logger | Monetization Agent started
+2026-03-03 15:15:13,170 | INFO | ai_validator_logger | Sending request to LLM
+2026-03-03 15:15:13,247 | ERROR | ai_validator_logger | LLM request failed: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-03 15:15:13,247 | INFO | ai_validator_logger | Monetization Agent completed successfully
+2026-03-03 15:15:13,248 | INFO | ai_validator_logger | Risk Estimator Agent started
+2026-03-03 15:15:13,248 | INFO | ai_validator_logger | Sending request to LLM
+2026-03-03 15:15:13,339 | ERROR | ai_validator_logger | LLM request failed: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-03 15:15:13,339 | INFO | ai_validator_logger | Risk Estimator Agent completed successfully
+2026-03-03 15:15:13,340 | INFO | ai_validator_logger | All agents executed successfully
+2026-03-03 15:17:48,260 | INFO | ai_validator_logger | Sending request to LLM
+2026-03-03 15:17:48,658 | ERROR | ai_validator_logger | LLM request failed: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-03 15:18:15,202 | INFO | ai_validator_logger | Sending request to LLM
+2026-03-03 15:18:15,806 | INFO | ai_validator_logger | LLM response received successfully
+2026-03-03 15:18:30,507 | INFO | ai_validator_logger | Orchestrator started
+2026-03-03 15:18:30,510 | INFO | ai_validator_logger | Market Research Agent started
+2026-03-03 15:18:30,510 | INFO | ai_validator_logger | [Search Tool] Searching for: AI-powered resume optimizer that tailors resumes to job descriptions to improve ATS score and interview chances market size trends TAM SAM SOM
+2026-03-03 15:18:32,076 | INFO | ai_validator_logger | [Search Tool] Search completed successfully
+2026-03-03 15:18:32,077 | INFO | ai_validator_logger | Sending request to LLM
+2026-03-03 15:18:33,186 | INFO | ai_validator_logger | LLM response received successfully
+2026-03-03 15:18:33,186 | INFO | ai_validator_logger | Market Research Agent completed successfully
+2026-03-03 15:18:33,187 | INFO | ai_validator_logger | Competitor Agent started
+2026-03-03 15:18:33,187 | INFO | ai_validator_logger | [Search Tool] Searching for: AI-powered resume optimizer that tailors resumes to job descriptions to improve ATS score and interview chances competitors pricing features
+2026-03-03 15:18:34,741 | INFO | ai_validator_logger | [Search Tool] Search completed successfully
+2026-03-03 15:18:34,742 | INFO | ai_validator_logger | Sending request to LLM
+2026-03-03 15:18:35,922 | INFO | ai_validator_logger | LLM response received successfully
+2026-03-03 15:18:35,923 | INFO | ai_validator_logger | Competitor Agent completed successfully
+2026-03-03 15:18:35,923 | INFO | ai_validator_logger | Monetization Agent started
+2026-03-03 15:18:35,923 | INFO | ai_validator_logger | Sending request to LLM
+2026-03-03 15:18:37,186 | INFO | ai_validator_logger | LLM response received successfully
+2026-03-03 15:18:37,186 | INFO | ai_validator_logger | Monetization Agent completed successfully
+2026-03-03 15:18:37,186 | INFO | ai_validator_logger | Risk Estimator Agent started
+2026-03-03 15:18:37,187 | INFO | ai_validator_logger | Sending request to LLM
+2026-03-03 15:18:39,063 | INFO | ai_validator_logger | LLM response received successfully
+2026-03-03 15:18:39,064 | INFO | ai_validator_logger | Risk Estimator Agent completed successfully
+2026-03-03 15:18:39,064 | INFO | ai_validator_logger | All agents executed successfully
+2026-03-03 15:21:03,070 | INFO | ai_validator_logger | [Search Tool] Searching for: AI-powered Resume Optimizer competitors
+2026-03-03 15:21:04,678 | INFO | ai_validator_logger | [Search Tool] Search completed successfully
+2026-03-03 15:21:13,235 | INFO | ai_validator_logger | Competitor Agent started
+2026-03-03 15:21:13,235 | INFO | ai_validator_logger | [Search Tool] Searching for: AI-powered Resume Optimizer competitors pricing features
+2026-03-03 15:21:14,776 | INFO | ai_validator_logger | [Search Tool] Search completed successfully
+2026-03-03 15:21:14,777 | INFO | ai_validator_logger | Sending request to LLM
+2026-03-03 15:21:16,525 | INFO | ai_validator_logger | LLM response received successfully
+2026-03-03 15:21:16,525 | INFO | ai_validator_logger | Competitor Agent completed successfully
+2026-03-03 15:21:33,226 | INFO | ai_validator_logger | Competitor Agent started
+2026-03-03 15:21:33,227 | INFO | ai_validator_logger | [Search Tool] Searching for: AI-powered Resume Optimizer competitors pricing features
+2026-03-03 15:21:35,790 | INFO | ai_validator_logger | [Search Tool] Search completed successfully
+2026-03-03 15:21:35,791 | INFO | ai_validator_logger | Sending request to LLM
+2026-03-03 15:21:37,135 | INFO | ai_validator_logger | LLM response received successfully
+2026-03-03 15:21:37,136 | INFO | ai_validator_logger | Competitor Agent completed successfully
+2026-03-03 15:21:45,742 | INFO | ai_validator_logger | Orchestrator started
+2026-03-03 15:21:45,755 | INFO | ai_validator_logger | Market Research Agent started
+2026-03-03 15:21:45,756 | INFO | ai_validator_logger | [Search Tool] Searching for: AI-powered resume optimizer that tailors resumes to job descriptions to improve ATS score and interview chances market size trends TAM SAM SOM
+2026-03-03 15:21:47,793 | INFO | ai_validator_logger | [Search Tool] Search completed successfully
+2026-03-03 15:21:47,795 | INFO | ai_validator_logger | Sending request to LLM
+2026-03-03 15:21:49,694 | INFO | ai_validator_logger | LLM response received successfully
+2026-03-03 15:21:49,695 | INFO | ai_validator_logger | Market Research Agent completed successfully
+2026-03-03 15:21:49,695 | INFO | ai_validator_logger | Competitor Agent started
+2026-03-03 15:21:49,695 | INFO | ai_validator_logger | [Search Tool] Searching for: AI-powered resume optimizer that tailors resumes to job descriptions to improve ATS score and interview chances competitors pricing features
+2026-03-03 15:21:52,005 | INFO | ai_validator_logger | [Search Tool] Search completed successfully
+2026-03-03 15:21:52,007 | INFO | ai_validator_logger | Sending request to LLM
+2026-03-03 15:21:53,143 | INFO | ai_validator_logger | LLM response received successfully
+2026-03-03 15:21:53,143 | INFO | ai_validator_logger | Competitor Agent completed successfully
+2026-03-03 15:21:53,144 | INFO | ai_validator_logger | Monetization Agent started
+2026-03-03 15:21:53,144 | INFO | ai_validator_logger | Sending request to LLM
+2026-03-03 15:21:54,817 | INFO | ai_validator_logger | LLM response received successfully
+2026-03-03 15:21:54,817 | INFO | ai_validator_logger | Monetization Agent completed successfully
+2026-03-03 15:21:54,817 | INFO | ai_validator_logger | Risk Estimator Agent started
+2026-03-03 15:21:54,818 | INFO | ai_validator_logger | Sending request to LLM
+2026-03-03 15:21:56,371 | INFO | ai_validator_logger | LLM response received successfully
+2026-03-03 15:21:56,371 | INFO | ai_validator_logger | Risk Estimator Agent completed successfully
+2026-03-03 15:21:56,373 | INFO | ai_validator_logger | All agents executed successfully
+2026-03-03 15:25:11,943 | INFO | ai_validator_logger | Orchestrator started
+2026-03-03 15:25:11,949 | INFO | ai_validator_logger | Market Research Agent started
+2026-03-03 15:25:11,949 | INFO | ai_validator_logger | [Search Tool] Searching for: AI-powered insurance claim error detection system for hospitals to reduce claim rejections and increase revenue recovery market size trends TAM SAM SOM
+2026-03-03 15:25:13,929 | INFO | ai_validator_logger | [Search Tool] Search completed successfully
+2026-03-03 15:25:13,931 | INFO | ai_validator_logger | Sending request to LLM
+2026-03-03 15:25:15,524 | INFO | ai_validator_logger | LLM response received successfully
+2026-03-03 15:25:15,525 | INFO | ai_validator_logger | Market Research Agent completed successfully
+2026-03-03 15:25:15,525 | INFO | ai_validator_logger | Competitor Agent started
+2026-03-03 15:25:15,525 | INFO | ai_validator_logger | [Search Tool] Searching for: AI-powered insurance claim error detection system for hospitals to reduce claim rejections and increase revenue recovery competitors pricing features
+2026-03-03 15:25:17,742 | INFO | ai_validator_logger | [Search Tool] Search completed successfully
+2026-03-03 15:25:17,744 | INFO | ai_validator_logger | Sending request to LLM
+2026-03-03 15:25:19,123 | INFO | ai_validator_logger | LLM response received successfully
+2026-03-03 15:25:19,123 | INFO | ai_validator_logger | Competitor Agent completed successfully
+2026-03-03 15:25:19,124 | INFO | ai_validator_logger | Monetization Agent started
+2026-03-03 15:25:19,124 | INFO | ai_validator_logger | Sending request to LLM
+2026-03-03 15:25:21,005 | INFO | ai_validator_logger | LLM response received successfully
+2026-03-03 15:25:21,006 | INFO | ai_validator_logger | Monetization Agent completed successfully
+2026-03-03 15:25:21,006 | INFO | ai_validator_logger | Risk Estimator Agent started
+2026-03-03 15:25:21,006 | INFO | ai_validator_logger | Sending request to LLM
+2026-03-03 15:25:22,340 | INFO | ai_validator_logger | LLM response received successfully
+2026-03-03 15:25:22,341 | INFO | ai_validator_logger | Risk Estimator Agent completed successfully
+2026-03-03 15:25:22,341 | INFO | ai_validator_logger | All agents executed successfully
