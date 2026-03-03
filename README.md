@@ -2,54 +2,54 @@
 
 A Multi-Agent AI system that validates startup ideas by performing:
 
-* 📊 Market Research
-* 🏆 Competitor Analysis
-* 💰 Monetization Planning
-* ⚠ Risk Estimation
+* Market Research
+* Competitor Analysis
+* Monetization Planning
+* Risk Estimation
 
 The system generates a structured validation report to help founders assess feasibility before building.
 
 ---
 
-# 🧠 System Architecture
+# System Architecture
 
-## 🔷 High-Level Architecture Diagram
+## High-Level Architecture Diagram
 
 ```
-                          ┌────────────────────┐
+                          ┌─────────────────────┐
                           │     Streamlit UI    │
                           │  (User Input Layer) │
-                          └──────────┬─────────┘
+                          └──────────┬──────────┘
                                      │
                                      ▼
-                          ┌────────────────────┐
+                          ┌─────────────────────┐
                           │    Orchestrator     │
                           │ (Agent Controller)  │
-                          └──────────┬─────────┘
+                          └──────────┬──────────┘
                                      │
-         ┌───────────────┬───────────┼───────────┬───────────────┐
-         ▼               ▼           ▼           ▼               ▼
-┌────────────────┐ ┌──────────────┐ ┌──────────────┐ ┌────────────────┐
-│ Market Research │ │ Competitor   │ │ Monetization │ │ Risk Estimator │
-│     Agent       │ │    Agent     │ │    Agent     │ │     Agent      │
-└────────┬────────┘ └──────┬───────┘ └──────┬───────┘ └────────┬───────┘
+         ┌─────────────────┬─────────────────┬──────────────────┐
+         ▼                 ▼                 ▼                  ▼
+┌─────────────────┐ ┌──────────────┐ ┌───────────────┐ ┌────────────────┐
+│ Market Research │ │ Competitor   │ │  Monetization │ │ Risk Estimator │
+│     Agent       │ │    Agent     │ │     Agent     │ │     Agent      │
+└────────┬────────┘ └──────┬───────┘ └───────┬───────┘ └────────┬───────┘
          │                 │                 │                  │
          ▼                 ▼                 ▼                  ▼
    Google Search        Google Search        LLM              LLM
      (Serper API)       (Serper API)      (Groq API)      (Groq API)
          │                 │                 │                  │
-         └───────────────┬─┴─────────────────┴──────────────────┘
-                         ▼
-               ┌──────────────────┐
-               │ Report Generator │
-               └────────┬─────────┘
-                        ▼
-               📄 Final Validation Report
+         └─────────────────┴─────────┬───────┴──────────────────┘
+                                     ▼
+                            ┌──────────────────┐
+                            │ Report Generator │
+                            └────────┬─────────┘
+                                     ▼
+                           Final Validation Report
 ```
 
 ---
 
-# ⚙️ Multi-Agent Workflow
+# Multi-Agent Workflow
 
 1. User enters startup idea in Streamlit UI.
 2. Orchestrator receives idea.
@@ -65,9 +65,9 @@ The system generates a structured validation report to help founders assess feas
 
 ---
 
-# 🧩 Agents Overview
+# Agents Overview
 
-## 1️⃣ Market Research Agent
+## 1️.Market Research Agent
 
 Responsible for:
 
@@ -83,7 +83,7 @@ Uses:
 
 ---
 
-## 2️⃣ Competitor Finder Agent
+## 2️.Competitor Finder Agent
 
 Responsible for:
 
@@ -99,7 +99,7 @@ Uses:
 
 ---
 
-## 3️⃣ Monetization Analyst Agent
+## 3️.Monetization Analyst Agent
 
 Responsible for:
 
@@ -114,7 +114,7 @@ Uses:
 
 ---
 
-## 4️⃣ Risk Estimator Agent
+## 4️.Risk Estimator Agent
 
 Responsible for:
 
@@ -130,7 +130,7 @@ Uses:
 
 ---
 
-# 📁 Project Structure
+# Project Structure
 
 ```
 ai-saas-validator/
@@ -161,7 +161,7 @@ ai-saas-validator/
 
 ---
 
-# 🔑 Tech Stack (Free Tier)
+# Tech Stack (Free Tier)
 
 | Component  | Tool                  |
 | ---------- | --------------------- |
@@ -173,9 +173,9 @@ ai-saas-validator/
 
 ---
 
-# 🛠 Installation Guide
+# Installation Guide
 
-## 1️⃣ Clone Repository
+## 1️.Clone Repository
 
 ```bash
 git clone https://github.com/yourusername/ai-saas-validator.git
@@ -184,7 +184,7 @@ cd ai-saas-validator
 
 ---
 
-## 2️⃣ Create Virtual Environment
+## 2️.Create Virtual Environment
 
 ```bash
 python -m venv venv
@@ -206,7 +206,7 @@ source venv/bin/activate
 
 ---
 
-## 3️⃣ Install Dependencies
+## 3️.Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -223,7 +223,7 @@ python-dotenv
 
 ---
 
-## 4️⃣ Setup API Keys
+## 4️.Setup API Keys
 
 Create `.env` file in root directory:
 
@@ -234,7 +234,7 @@ SERPER_API_KEY=your_serper_api_key
 
 ---
 
-## 5️⃣ Run Application
+## 5️.Run Application
 
 ```bash
 streamlit run app.py
@@ -242,7 +242,7 @@ streamlit run app.py
 
 ---
 
-# 📄 Output Format
+# Output Format
 
 The system generates:
 
@@ -255,7 +255,7 @@ The system generates:
 
 ---
 
-# 📊 Logging & Error Handling
+# Logging & Error Handling
 
 The system includes:
 
@@ -275,19 +275,19 @@ logs/app.log
 
 ---
 
-# 🎯 Evaluation Criteria Coverage
+# Evaluation Criteria Coverage
 
-✔ Agent Collaboration Logic
-✔ Prompt Engineering
-✔ Market Research Accuracy
-✔ Clean Code Structure
-✔ Logging & Error Handling
-✔ Structured Report Generation
-✔ Streamlit UI
+* Agent Collaboration Logic
+* Prompt Engineering
+* Market Research Accuracy
+* Clean Code Structure
+* Logging & Error Handling
+* Structured Report Generation
+* Streamlit UI
 
 ---
 
-# 🚀 Future Improvements
+# Future Improvements
 
 * Parallel agent execution (async)
 * Vector database memory (ChromaDB)
@@ -300,12 +300,12 @@ logs/app.log
 
 ---
 
-# 📌 License
+# License
 
 MIT License
 
 ---
 
-# 💡 Author Note
+# Author Note
 
 This project demonstrates how multi-agent AI systems can simulate real-world startup validation workflows using modular architecture and free-tier APIs.
