@@ -1,4 +1,4 @@
-# 🚀 AI SaaS Idea Validator – Multi-Agent System
+# AI SaaS Idea Validator – Multi-Agent System
 
 A Multi-Agent AI system that validates startup ideas by performing:
 
